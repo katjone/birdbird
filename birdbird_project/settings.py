@@ -12,6 +12,12 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 
+from configparser import RawConfigParser
+assert os.path.exists('birdbird_project/settings.ini')
+
+config = RawConfigParser()
+config.read('birdbird_project/settings.ini')
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -37,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'birdbird'
+    'birdbird',
+    'location_field.apps.DefaultConfig'
 ]
 
 MIDDLEWARE = [
@@ -50,12 +57,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'birdbird.urls'
+ROOT_URLCONF = 'birdbird_project.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -68,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'birdbird.wsgi.application'
+WSGI_APPLICATION = 'birdbird_project.wsgi.application'
 
 
 # Database
@@ -79,6 +86,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'birdbird',
     }
+}
+
+LOCATION_FIELD = {
+    'provider.google.api_key': config.get('google', 'api_key'),
 }
 
 
@@ -106,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'PT'
+TIME_ZONE = 'America/Los_Angeles'
 
 USE_I18N = True
 
