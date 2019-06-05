@@ -17,4 +17,4 @@ def sighting_form(request):
 
 @login_required
 def map(request):
-    return render(request, 'birdbird/maps.html')
+    return render(request, 'birdbird/map.html')
