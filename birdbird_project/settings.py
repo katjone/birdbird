@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'birdbird',
-    'location_field.apps.DefaultConfig'
+    'location_field.apps.DefaultConfig',
+    'accounts'
 ]
 
 MIDDLEWARE = [

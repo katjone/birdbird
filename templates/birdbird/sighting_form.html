@@ -5,7 +5,6 @@
 <h2>Sighting Form</h2>
 <form method="POST" class="sighting-form">
     {% csrf_token %}
-    <!-- {{ form.media }} -->
     {{ form.as_p }}
     <button type="submit">Submit</button>
 </form>
