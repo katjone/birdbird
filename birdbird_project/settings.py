@@ -14,13 +14,13 @@ import os
 import django_heroku
 
 from configparser import RawConfigParser
-assert os.path.exists('birdbird_project/settings.ini')
 
 try:
     # If settings.ini available (on local machine), get api key from there
     assert os.path.exists('birdbird_project/settings.ini')
     config = RawConfigParser()
     config.read('birdbird_project/settings.ini')
+    api_key = config.get('google', 'api_key')
 
 except:
     # Otherwise, find Heroku config variable containing api key
@@ -100,7 +100,7 @@ DATABASES = {
 }
 
 LOCATION_FIELD = {
-    'provider.google.api_key': config.get('google', 'api_key'),
+    'provider.google.api_key': api_key
 }
 
 
@@ -146,7 +146,7 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_URL = '/static/'
-GOOGLE_MAPS_API_KEY = config.get('google', 'api_key')
+GOOGLE_MAPS_API_KEY = api_key
 
 # Configure Django App for Heroku.
 django_heroku.settings(locals())
