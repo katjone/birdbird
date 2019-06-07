@@ -16,8 +16,17 @@ import django_heroku
 from configparser import RawConfigParser
 assert os.path.exists('birdbird_project/settings.ini')
 
-config = RawConfigParser()
-config.read('birdbird_project/settings.ini')
+try:
+    # If settings.ini available (on local machine), get api key from there
+    assert os.path.exists('birdbird_project/settings.ini')
+    config = RawConfigParser()
+    config.read('birdbird_project/settings.ini')
+
+except:
+    # Otherwise, find Heroku config variable containing api key
+    api_key = os.environ['api_key']
+
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

@@ -4,7 +4,8 @@ from django.http import JsonResponse
 
 from django.conf import settings
 from .forms import SightingForm
-from .models import Sighting
+from .models import Sighting, Species
+from django.contrib.auth.models import User
 
 # Create your views here.
 
@@ -34,5 +35,14 @@ def map(request):
 def get_sightings(request):
     # sightings variable assigned to NameofModel, .function that gets all the rows on that Model's table
     # .values() turns row into an object consisting of key:value pairs
-    sightings = Sighting.objects.all().values()
-    return JsonResponse({'sightings': list(sightings)})
+    sightings = Sighting.objects.values()
+    sightings_with_bird = []
+    for sighting in sightings:
+        animal= Species.objects.get(pk=sighting['bird_id'])
+        observer = User.objects.get(pk=sighting['observer_id'])
+        sighting['bird_id'] = animal.name
+        sighting['observer_id'] = observer.username
+        sightings_with_bird.append(sighting)
+    
+    
+    return JsonResponse({'sightings': list(sightings_with_bird)})
