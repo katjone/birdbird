@@ -1,1 +1,1 @@
-web: gunicorn <project_folder_name>.wsgi
+web: gunicorn birdbird_project.wsgi
