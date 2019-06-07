@@ -60,7 +60,7 @@ $(document).ready(function() {
         // An InfoWindow displays content (usually text or images) in a popup window above the map, at a given location.
         let infowindow = new google.maps.InfoWindow({
           // Content has to be a string, not an array!!
-          content: `${data.sightings[i].bird}, ${data.sightings[i].address}`
+          content: `${data.sightings[i].bird_id}, ${data.sightings[i].address}`
         });
         marker.addListener("click", function() {
           infowindow.open(map, marker);

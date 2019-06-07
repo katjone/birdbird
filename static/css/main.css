@@ -15,3 +15,17 @@ body {
     padding: 0;
 }
 
+.searchbar {
+    height: 30px;
+    width: 100%;
+}
+
+#saw_bird {
+    height:100px;
+    width:100px;
+    background: green;
+    z-index: 23;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}

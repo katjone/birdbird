@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import django_heroku
 
 from configparser import RawConfigParser
 assert os.path.exists('birdbird_project/settings.ini')
@@ -137,3 +138,6 @@ STATICFILES_DIRS = [
 
 STATIC_URL = '/static/'
 GOOGLE_MAPS_API_KEY = config.get('google', 'api_key')
+
+# Configure Django App for Heroku.
+django_heroku.settings(locals())
