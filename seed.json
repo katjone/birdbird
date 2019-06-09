@@ -1,0 +1,212 @@
+
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$qmWQr3p1hnBM$ZhgQg6EgXCAKjJEoIJmliJWmj3N+AtcjnfPKImW+Yxs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "dd",
+            "first_name": "dd",
+            "last_name": "dd",
+            "email": "dd@d.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-06-03T20:55:19.599Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$bICPMzTocBtM$kaWmNa7i/NEd9Zt9V/3E+F7Is7J4lsB3UPE0/onrpc0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "firstlast",
+            "first_name": "first",
+            "last_name": "last",
+            "email": "f@f.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-06-03T20:58:59.784Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$SqjpY87kP8rj$SSgbx1h2/2fj1FFdZ3QH6tmNKBQEgBSBscYfqArTwcs=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jk",
+            "first_name": "jj",
+            "last_name": "kk",
+            "email": "jk@jk.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-06-03T21:01:40.306Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$GxVnPmhWeEe9$XcM3Dz0To51tI9mjJV5VKxfeNalD3Siku50+Q0mU0ks=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ss",
+            "first_name": "ss",
+            "last_name": "ss",
+            "email": "s@s.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-06-03T21:11:48.834Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$5BW6zGGITYJd$9kpL2Vs95f3ILMfhBIdRFzfGZiS0AoUwQ4DqYnJFdOs=",
+            "last_login": "2019-06-03T21:13:53.201Z",
+            "is_superuser": false,
+            "username": "ww",
+            "first_name": "ww",
+            "last_name": "ww",
+            "email": "ww@ww.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-06-03T21:12:39.638Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$vDhDyo0r9poo$zWLHS+IiK8ENHJ+dPmw31Wtlj5V2ZeFgUGSl/ucySgY=",
+            "last_login": "2019-06-07T02:03:23.833Z",
+            "is_superuser": false,
+            "username": "Katie",
+            "first_name": "Katie",
+            "last_name": "Jones",
+            "email": "kj@kj.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-06-05T19:03:24.123Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$KXJUvY9P3zwk$CGHrvt1OMaGg4/PWseOXu9ZapM1x7t+s9II6kFF4dcM=",
+            "last_login": "2019-06-05T21:44:45.365Z",
+            "is_superuser": false,
+            "username": "tcho",
+            "first_name": "teresa",
+            "last_name": "cho",
+            "email": "tcho@tcho.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-06-05T21:38:16.451Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$nQRax14wuY8Q$RXjiyYCK4emqAUeSoEJQ5to9FSiJhFUr8IYHCpT9YZI=",
+            "last_login": "2019-06-07T02:04:09.087Z",
+            "is_superuser": false,
+            "username": "zack",
+            "first_name": "zack",
+            "last_name": "religious",
+            "email": "zack@religi.on",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-06-07T02:03:59.932Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$150000$ZgFaX8D2RO2t$1ymAWYldX/vPT3W0KfUGg1hbqRqnGSwUNhp7B1woUBo=",
+            "last_login": "2019-06-07T03:49:43.529Z",
+            "is_superuser": false,
+            "username": "ehsan",
+            "first_name": "Ehsan",
+            "last_name": "Ta",
+            "email": "eeeee@eeee.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-06-07T03:49:34.346Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "birdbird.sighting",
+        "pk": 1,
+        "fields": {
+            "date": "2019-06-06",
+            "address": "255 Bush St, San Francisc0",
+            "location": "37.79358932184146,-122.41722106933594",
+            "photo_url": "'hey'",
+            "bird": 1,
+            "observer": 6
+        }
+    },
+    {
+        "model": "birdbird.sighting",
+        "pk": 2,
+        "fields": {
+            "date": "2019-06-06",
+            "address": "San Franc",
+            "location": "37.77793386053567,-122.42477416992186",
+            "photo_url": "'new'",
+            "bird": 1,
+            "observer": 6
+        }
+    },
+    {
+        "model": "birdbird.sighting",
+        "pk": 3,
+        "fields": {
+            "date": "2019-06-07",
+            "address": "San Francisco Botanical Garden",
+            "location": "37.7677096,-122.46931089999998",
+            "photo_url": null,
+            "bird": 3,
+            "observer": 6
+        }
+    },
+    {
+        "model": "birdbird.sighting",
+        "pk": 4,
+        "fields": {
+            "date": "2019-06-07",
+            "address": "telegraph hill",
+            "location": "37.8013407,-122.40566739999997",
+            "photo_url": null,
+            "bird": 2,
+            "observer": 6
+        }
+    }
+]
