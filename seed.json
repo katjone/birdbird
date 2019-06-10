@@ -130,7 +130,7 @@
     "pk": 8,
     "fields": {
       "password": "pbkdf2_sha256$150000$nQRax14wuY8Q$RXjiyYCK4emqAUeSoEJQ5to9FSiJhFUr8IYHCpT9YZI=",
-      "last_login": "2019-06-07T02:04:09.087Z",
+      "last_login": "2019-06-10T05:44:05.637Z",
       "is_superuser": false,
       "username": "zack",
       "first_name": "zack",
@@ -166,7 +166,7 @@
     "pk": 10,
     "fields": {
       "password": "pbkdf2_sha256$150000$Kt7m4PfSVDTu$c1Z2JcrnYtuuqN9jKccUB1KFZL4xP3SKeci1PniWoGc=",
-      "last_login": "2019-06-09T19:52:04.942Z",
+      "last_login": "2019-06-10T05:33:21.444Z",
       "is_superuser": false,
       "username": "Larry",
       "first_name": "Larry",
@@ -175,6 +175,42 @@
       "is_staff": false,
       "is_active": true,
       "date_joined": "2019-06-09T19:51:56.505Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$gPL9Pg11eCtO$9K4YDZxRRc+lK0e0CJ0cSfwVySAIbO2IKf3FvpHYpVU=",
+      "last_login": "2019-06-09T23:11:11.081Z",
+      "is_superuser": false,
+      "username": "Ysabel",
+      "first_name": "Ysabel ",
+      "last_name": "Morillo",
+      "email": "y@y.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-09T22:29:07.561Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$izbvSPJlDgID$E4534KRl+m6Eg3igFvx7s68dS8v3ymMgAE1UqgKlHT4=",
+      "last_login": "2019-06-09T23:08:29.185Z",
+      "is_superuser": false,
+      "username": "Julio",
+      "first_name": "Julio",
+      "last_name": "Hernadez",
+      "email": "julio@julio.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-09T23:08:20.036Z",
       "groups": [],
       "user_permissions": []
     }
@@ -387,6 +423,570 @@
       "photo_url": null,
       "bird": 2,
       "observer": 6
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 5,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Ghiradelli Square",
+      "location": "37.8056561,-122.42249129999999",
+      "photo_url": null,
+      "bird": 6,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 6,
+    "fields": {
+      "date": "2018-02-09",
+      "address": "Union Square",
+      "location": "37.7879754,-122.40750780000002",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 7,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Elk Glen Picnic Area",
+      "location": "37.7670584,-122.48593019999998",
+      "photo_url": null,
+      "bird": 8,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 8,
+    "fields": {
+      "date": "2018-12-20",
+      "address": "Stowe Lake",
+      "location": "37.7688689,-122.47746919999997",
+      "photo_url": null,
+      "bird": 13,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 9,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Ocean Beach",
+      "location": "37.75939210000001,-122.51073400000001",
+      "photo_url": null,
+      "bird": 5,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 10,
+    "fields": {
+      "date": "2019-01-11",
+      "address": "Ocean Beach",
+      "location": "37.75939210000001,-122.51073400000001",
+      "photo_url": null,
+      "bird": 15,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 11,
+    "fields": {
+      "date": "2018-11-29",
+      "address": "Glen Canyon Park",
+      "location": "37.7415588,-122.4431851",
+      "photo_url": null,
+      "bird": 18,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 12,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Baker Beach",
+      "location": "37.7935724,-122.48363799999998",
+      "photo_url": null,
+      "bird": 9,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 13,
+    "fields": {
+      "date": "2017-10-31",
+      "address": "Glen Canyon Park",
+      "location": "37.7415588,-122.4431851",
+      "photo_url": null,
+      "bird": 12,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 14,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "hyde and vallejo st",
+      "location": "37.7973496,-122.41869450000002",
+      "photo_url": null,
+      "bird": 11,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 15,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Mountain Lake Park",
+      "location": "37.7872822,-122.46972249999999",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 16,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Mountain Lake Park",
+      "location": "37.7872822,-122.46972249999999",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 17,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Palace of Fine Arts",
+      "location": "37.8020161,-122.448329",
+      "photo_url": null,
+      "bird": 17,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 18,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Fort Mason Park",
+      "location": "37.8047706,-122.43040050000002",
+      "photo_url": null,
+      "bird": 16,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 19,
+    "fields": {
+      "date": "2019-03-15",
+      "address": "Julius Khan Playground",
+      "location": "37.7911316,-122.4543213",
+      "photo_url": null,
+      "bird": 8,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 20,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "The Painted Ladies",
+      "location": "37.7762593,-122.43275800000004",
+      "photo_url": null,
+      "bird": 1,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 21,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Fort Funston",
+      "location": "37.7195436,-122.50280520000001",
+      "photo_url": null,
+      "bird": 16,
+      "observer": 12
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 22,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Fort Funston",
+      "location": "37.7195436,-122.50280520000001",
+      "photo_url": null,
+      "bird": 15,
+      "observer": 12
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 23,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "1040 Greenwich St",
+      "location": "37.8016788,-122.4169728",
+      "photo_url": null,
+      "bird": 2,
+      "observer": 12
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 24,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Mission Dolores Park",
+      "location": "37.7596168,-122.42690379999999",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 25,
+    "fields": {
+      "date": "2018-11-07",
+      "address": "Conservatory of Flowers",
+      "location": "37.7726406,-122.4602415",
+      "photo_url": null,
+      "bird": 7,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 26,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Rincoln Park",
+      "location": "41.9254701,-87.6487783",
+      "photo_url": null,
+      "bird": 5,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 27,
+    "fields": {
+      "date": "2018-04-18",
+      "address": "Rinclon Park",
+      "location": "37.7915675,-122.3899424",
+      "photo_url": null,
+      "bird": 2,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 28,
+    "fields": {
+      "date": "2018-10-24",
+      "address": "Lake Merced",
+      "location": "37.7226724,-122.49483839999999",
+      "photo_url": null,
+      "bird": 13,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 29,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "San Francisco National Cemetery",
+      "location": "37.7998167,-122.4644702",
+      "photo_url": null,
+      "bird": 3,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 30,
+    "fields": {
+      "date": "2019-05-02",
+      "address": "Dutch Windmill",
+      "location": "37.7704465,-122.50939519999997",
+      "photo_url": null,
+      "bird": 1,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 31,
+    "fields": {
+      "date": "2019-01-23",
+      "address": "Glean Canyon Park",
+      "location": "37.7415588,-122.4431851",
+      "photo_url": null,
+      "bird": 18,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 32,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "George Christopher Playground",
+      "location": "37.7440043,-122.44025770000002",
+      "photo_url": null,
+      "bird": 11,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 33,
+    "fields": {
+      "date": "2019-03-20",
+      "address": "North Lake",
+      "location": "32.8712166,-96.96730289999999",
+      "photo_url": null,
+      "bird": 12,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 34,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Portrero Hill Rec Center",
+      "location": "37.7561624,-122.3972493",
+      "photo_url": null,
+      "bird": 1,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 35,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Jon McLaren Park",
+      "location": "37.7192874,-122.4183155",
+      "photo_url": null,
+      "bird": 4,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 36,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Seward Mini Park",
+      "location": "37.7576585,-122.43999259999998",
+      "photo_url": null,
+      "bird": 4,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 37,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "oracle park",
+      "location": "37.7785951,-122.38926979999997",
+      "photo_url": null,
+      "bird": 9,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 38,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Strawberry Hill",
+      "location": "39.1133069,-94.61905309999997",
+      "photo_url": null,
+      "bird": 4,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 39,
+    "fields": {
+      "date": "2019-02-14",
+      "address": "Lyon Street Steps",
+      "location": "37.78766359999999,-122.4454662",
+      "photo_url": null,
+      "bird": 2,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 40,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Yerba Buena Gardens",
+      "location": "37.7850153,-122.4023464",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 41,
+    "fields": {
+      "date": "2017-02-05",
+      "address": "Koret Playground",
+      "location": "37.7683448,-122.45737839999998",
+      "photo_url": null,
+      "bird": 8,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 42,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Cal Academy of Science",
+      "location": "37.7698646,-122.46609469999999",
+      "photo_url": null,
+      "bird": 8,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 43,
+    "fields": {
+      "date": "2017-11-01",
+      "address": "Robin Williams Meadow",
+      "location": "37.7691071,-122.45801749999998",
+      "photo_url": null,
+      "bird": 7,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 44,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Shakespeare Garden, San Fr",
+      "location": "37.7688958,-122.4672329",
+      "photo_url": null,
+      "bird": 1,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 45,
+    "fields": {
+      "date": "2019-03-12",
+      "address": "Bunny Meadow",
+      "location": "37.7731743,-122.46219300000001",
+      "photo_url": null,
+      "bird": 10,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 46,
+    "fields": {
+      "date": "2018-01-14",
+      "address": "Hoover Redwood Picnic Area",
+      "location": "37.7659999,-122.4795777",
+      "photo_url": null,
+      "bird": 4,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 47,
+    "fields": {
+      "date": "2018-09-10",
+      "address": "Marshall's Beach",
+      "location": "37.8016521,-122.4798778",
+      "photo_url": null,
+      "bird": 15,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 48,
+    "fields": {
+      "date": "2019-02-10",
+      "address": "Marin Headlands",
+      "location": "37.8261694,-122.49969970000001",
+      "photo_url": null,
+      "bird": 16,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 49,
+    "fields": {
+      "date": "2019-02-02",
+      "address": "San Francisco",
+      "location": "37.788624026050876,-122.4810791015625",
+      "photo_url": null,
+      "bird": 15,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 50,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "San Francisco",
+      "location": "37.79215110146844,-122.48279571533203",
+      "photo_url": null,
+      "bird": 11,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 51,
+    "fields": {
+      "date": "2019-04-09",
+      "address": "Rob Hill Campground",
+      "location": "37.79667269999999,-122.47583759999998",
+      "photo_url": null,
+      "bird": 10,
+      "observer": 11
     }
   }
 ]

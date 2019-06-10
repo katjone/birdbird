@@ -1,40 +1,46 @@
 {% extends 'base.html' %}
 {% block content %}
-<h2>Notebook</h2>
-<!-- Buttons -->
-<p>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#species-count"
-        aria-expanded="false" aria-controls="collapseExample">
-        Species Count = {{ birds|length }}
-    </button>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sightings-log"
-        aria-expanded="false" aria-controls="collapseExample">
-        Sightings Log
-    </button>
-</p>
-<div class="collapse" id="species-count">
-    <div class="card card-body">
-       You've seen these birds: 
-       <ul>
-           {% for bird in birds %}
-           <li>
-               <p>{{ bird.name }}</p>
-           </li>
-           {% endfor %}
-       </ul>
+<section class="notebook">
+    
+    <h2>Notebook</h2>
+    <!-- Links to map and sighting form -->
+    <button><a href="{% url 'map' %}"></a>Map</button>
+    <button><a href="{% url 'sighting-form' %}"></a>Record Sighting</button>
+        <!-- Buttons -->
+    <p>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#species-count"
+            aria-expanded="false" aria-controls="collapseExample">
+            Species Count = {{ birds|length }}
+        </button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sightings-log"
+            aria-expanded="false" aria-controls="collapseExample">
+            Sightings Log
+        </button>
+    </p>
+    <div class="collapse" id="species-count">
+        <div class="card card-body">
+           You've seen these birds: 
+           <ul>
+               {% for bird in birds %}
+               <li>
+                   <p>{{ bird.name }}</p>
+               </li>
+               {% endfor %}
+           </ul>
+        </div>
     </div>
-</div>
-<div class="collapse" id="sightings-log">
-    <div class="card card-body">
-       Here are all of your sightings: 
-       <ul>
-           {% for sighting in sightings %}
-           <li>
-               <p>{{ sighting.date }}, {{ sighting.bird}}, {{ sighting.address}}</p>
-           </li>
-           {% endfor %}
-       </ul>
+    <div class="collapse" id="sightings-log">
+        <div class="card card-body">
+           Here are all of your sightings: 
+           <ul>
+               {% for sighting in sightings %}
+               <li>
+                   <p>{{ sighting.date }}, {{ sighting.bird}}, {{ sighting.address}}</p>
+               </li>
+               {% endfor %}
+           </ul>
+        </div>
     </div>
-</div>
+</section>
 
 {% endblock %}
