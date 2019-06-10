@@ -20,12 +20,41 @@ body {
     width: 100%;
 }
 
-#saw_bird {
-    height:100px;
-    width:100px;
-    background: green;
-    z-index: 23;
+/* Navbar */
+ul.nav {
+    z-index: 99 !important;
+    background: aqua;
+}
+
+ /* Index */
+
+#go-map {
+    height: 450px;
+    width: 450px;
+    border-radius: 30%;
+    background: #F15025;
+    /* color: yellow;
+    font-size: 50px; */
     position: absolute;
-    top: 20px;
-    left: 100px;
+    top: -125px;
+    left: -125px;
+}
+
+#go-map:focus,
+#saw-bird:focus {
+    outline: none;
+    border: 30px solid purple;
+    cursor: pointer;
+}
+
+#saw-bird {
+    height: 450px;
+    width: 500px;
+    border-radius: 100%;
+    background: #C2E812;
+    /* color: yellow;
+    font-size: 50px; */
+    position: absolute;
+    bottom: -125px;
+    right: -125px;
 }

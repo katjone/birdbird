@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib import auth
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
+from birdbird.models import Species, Sighting
 
 # IMPORT DJANGO USER MODEL
 from .models import Profile
@@ -61,4 +62,14 @@ def logout(request):
 @login_required
 def profile(request):
     user = request.user
-    return render(request, 'accounts/profile.html', {'user': user})
+    user_sightings = Sighting.objects.filter(observer_id = user.id)
+    bird_ids = user_sightings.values('bird_id').distinct()
+    birds = []
+    for bird in bird_ids:
+        bird_name = Species.objects.get(pk=bird['bird_id'])
+        # observer = User.objects.get(pk=sighting['observer_id'])
+        # sighting['bird_id'] = bird.name
+        # sighting['observer_id'] = observer.username
+        birds.append(bird_name)
+
+    return render(request, 'accounts/profile.html', {'user': user, 'birds':birds, 'sightings': user_sightings})

@@ -38,11 +38,11 @@ def get_sightings(request):
     sightings = Sighting.objects.values()
     sightings_with_bird = []
     for sighting in sightings:
-        animal= Species.objects.get(pk=sighting['bird_id'])
+        bird= Species.objects.get(pk=sighting['bird_id'])
         observer = User.objects.get(pk=sighting['observer_id'])
-        sighting['bird_id'] = animal.name
+        sighting['bird_id'] = bird.name
         sighting['observer_id'] = observer.username
         sightings_with_bird.append(sighting)
-    
-    
+     
     return JsonResponse({'sightings': list(sightings_with_bird)})
+

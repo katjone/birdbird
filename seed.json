@@ -1,0 +1,992 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$qmWQr3p1hnBM$ZhgQg6EgXCAKjJEoIJmliJWmj3N+AtcjnfPKImW+Yxs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "dd",
+      "first_name": "dd",
+      "last_name": "dd",
+      "email": "dd@d.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-03T20:55:19.599Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$bICPMzTocBtM$kaWmNa7i/NEd9Zt9V/3E+F7Is7J4lsB3UPE0/onrpc0=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "firstlast",
+      "first_name": "first",
+      "last_name": "last",
+      "email": "f@f.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-03T20:58:59.784Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$SqjpY87kP8rj$SSgbx1h2/2fj1FFdZ3QH6tmNKBQEgBSBscYfqArTwcs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "jk",
+      "first_name": "jj",
+      "last_name": "kk",
+      "email": "jk@jk.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-03T21:01:40.306Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$GxVnPmhWeEe9$XcM3Dz0To51tI9mjJV5VKxfeNalD3Siku50+Q0mU0ks=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "ss",
+      "first_name": "ss",
+      "last_name": "ss",
+      "email": "s@s.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-03T21:11:48.834Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$5BW6zGGITYJd$9kpL2Vs95f3ILMfhBIdRFzfGZiS0AoUwQ4DqYnJFdOs=",
+      "last_login": "2019-06-03T21:13:53.201Z",
+      "is_superuser": false,
+      "username": "ww",
+      "first_name": "ww",
+      "last_name": "ww",
+      "email": "ww@ww.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-03T21:12:39.638Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$vDhDyo0r9poo$zWLHS+IiK8ENHJ+dPmw31Wtlj5V2ZeFgUGSl/ucySgY=",
+      "last_login": "2019-06-07T02:03:23.833Z",
+      "is_superuser": false,
+      "username": "Katie",
+      "first_name": "Katie",
+      "last_name": "Jones",
+      "email": "kj@kj.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-05T19:03:24.123Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$KXJUvY9P3zwk$CGHrvt1OMaGg4/PWseOXu9ZapM1x7t+s9II6kFF4dcM=",
+      "last_login": "2019-06-05T21:44:45.365Z",
+      "is_superuser": false,
+      "username": "tcho",
+      "first_name": "teresa",
+      "last_name": "cho",
+      "email": "tcho@tcho.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-05T21:38:16.451Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$nQRax14wuY8Q$RXjiyYCK4emqAUeSoEJQ5to9FSiJhFUr8IYHCpT9YZI=",
+      "last_login": "2019-06-10T05:44:05.637Z",
+      "is_superuser": false,
+      "username": "zack",
+      "first_name": "zack",
+      "last_name": "religious",
+      "email": "zack@religi.on",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-07T02:03:59.932Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$ZgFaX8D2RO2t$1ymAWYldX/vPT3W0KfUGg1hbqRqnGSwUNhp7B1woUBo=",
+      "last_login": "2019-06-07T03:49:43.529Z",
+      "is_superuser": false,
+      "username": "ehsan",
+      "first_name": "Ehsan",
+      "last_name": "Ta",
+      "email": "eeeee@eeee.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-07T03:49:34.346Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$Kt7m4PfSVDTu$c1Z2JcrnYtuuqN9jKccUB1KFZL4xP3SKeci1PniWoGc=",
+      "last_login": "2019-06-10T05:33:21.444Z",
+      "is_superuser": false,
+      "username": "Larry",
+      "first_name": "Larry",
+      "last_name": "Williams",
+      "email": "larry@larry.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-09T19:51:56.505Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$gPL9Pg11eCtO$9K4YDZxRRc+lK0e0CJ0cSfwVySAIbO2IKf3FvpHYpVU=",
+      "last_login": "2019-06-09T23:11:11.081Z",
+      "is_superuser": false,
+      "username": "Ysabel",
+      "first_name": "Ysabel ",
+      "last_name": "Morillo",
+      "email": "y@y.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-09T22:29:07.561Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$izbvSPJlDgID$E4534KRl+m6Eg3igFvx7s68dS8v3ymMgAE1UqgKlHT4=",
+      "last_login": "2019-06-09T23:08:29.185Z",
+      "is_superuser": false,
+      "username": "Julio",
+      "first_name": "Julio",
+      "last_name": "Hernadez",
+      "email": "julio@julio.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-06-09T23:08:20.036Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 1,
+    "fields": {
+      "name": "Mourning dove",
+      "description": "They are stout-bodied birds with short necks, and short slender bills that in some species feature fleshy ceres. They primarily feed on seeds, fruits, and plants. Pigeons and doves are likely the most common birds in the world;",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Treron_vernans_male_-_Kent_Ridge_Park.jpg/1920px-Treron_vernans_male_-_Kent_Ridge_Park.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 2,
+    "fields": {
+      "name": "Red-headed Conure",
+      "description": "Green medium-sized conure. Half of its body length is its tail.",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Red-masked_Parakeet-Aratinga_erythrogenys_in_a_tree.jpg/1920px-Red-masked_Parakeet-Aratinga_erythrogenys_in_a_tree.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 3,
+    "fields": {
+      "name": "Great Blue Heron",
+      "description": "The great blue heron (Ardea herodias) is a large wading bird in the heron family Ardeidae, common near the shores of open water and in wetlands over most of North America and Central America, as well as the Caribbean and the Gal\u00e1pagos Islands.",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/GBHfish5.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 4,
+    "fields": {
+      "name": "Chestnut-backed Chickadee ",
+      "description": "The Chestnut-backed Chickadee (Poecile rufescens, formerly Parus rufescens) is a small passerine bird in the tit family, Paridae.",
+      "photo_url": "https://www.audubon.org/sites/default/files/styles/grid_gallery_lightbox/public/Chestnut-backed_Chickadee_b57-13-104_l_1.jpg?itok=Zs8B-Jny"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 5,
+    "fields": {
+      "name": "Western Sandpiper",
+      "description": "The Western Sandpiper, Calidris or Erolia mauri, is a small shorebird.",
+      "photo_url": "https://static.inaturalist.org/photos/1550/medium.jpg?1545369034"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 6,
+    "fields": {
+      "name": "Brown pelican",
+      "description": "The brown pelican mainly feeds on fish, but occasionally eats amphibians, crustaceans, and the eggs and nestlings of birds. It nests in colonies in secluded areas, often on islands, vegetated land among sand dunes, thickets of shrubs and trees, and mangroves. ",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Brown_Pelican21K.jpg/440px-Brown_Pelican21K.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 7,
+    "fields": {
+      "name": "Anna hummingbird",
+      "description": "Anna hummingbird is 3.9 to 4.3 in (9.9 to 10.9 cm) long. It has an iridescent bronze-green back, a pale grey chest and belly, and green flanks. Its bill is long, straight, and slender. The adult male has an iridescent crimson-red derived from magenta to a reddish-pink crown and gorget, which can look dull brown or gray without direct sunlight and a dark, slightly forked tail.\n\n",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Anna%27s_hummingbird.jpg/440px-Anna%27s_hummingbird.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 8,
+    "fields": {
+      "name": "Allen hummingbird",
+      "description": "Allen hummingbird is common only in the brushy woods, gardens, and meadows of coastal California from Santa Barbara north, and ",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Allen%27s_Hummingbird_%28Selasphorus_sasin%29.jpg/440px-Allen%27s_Hummingbird_%28Selasphorus_sasin%29.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 9,
+    "fields": {
+      "name": "American Coot ",
+      "description": "Though commonly mistaken for ducks, American coots are only distantly related to ducks, belonging to a separate order. Unlike the webbed feet of ducks, coots have broad, lobed scales on their lower legs and toes that fold back with each step in order to facilitate walking on dry land.[2] Coots live near water, typically inhabiting wetlands and open water bodies in North America. Groups of coots are called covers or rafts. The oldest known coot lived to be 22 years old.[2]\n\n",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/American-coot-casey-klebba.jpg/1920px-American-coot-casey-klebba.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 10,
+    "fields": {
+      "name": "Rock Pigeon",
+      "description": "The rock dove, rock pigeon, or common pigeon is a member of the bird family Columbidae (doves and pigeons).  In common usage, this bird is often simply referred to as the \"pigeon\".\n\nThe domestic pigeon descended from this species. Escaped domestic pigeons have raised the populations of feral pigeons around the world.\n\n",
+      "photo_url": "https://static.inaturalist.org/photos/1055/small.jpg?1545367613"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 11,
+    "fields": {
+      "name": "Spotted Towhee",
+      "description": "The spotted towhee is a large New World sparrow, roughly the same size as a Robin. It has a long, dark fan shaped tail with white corners on the end. They have a round body (similar to New World sparrows) with bright red eyes and dull pink legs. ",
+      "photo_url": "https://static.inaturalist.org/photos/1660/small.jpg?1545369700"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 12,
+    "fields": {
+      "name": "Bushtit ",
+      "description": "Bushtits are active birds, moving almost constantly while they forage for insects in shrubs and trees. During non-breeding season, birds live in flocks of up to 50 individuals. Several bushtit species display cooperative breeding behavior, also called helpers at the nest.",
+      "photo_url": "https://static.inaturalist.org/photos/34916/small.jpg?1545375397"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 13,
+    "fields": {
+      "name": "Snowy Egret",
+      "description": "At one time, the beautiful plumes of the snowy egret were in great demand by market hunters as decorations for womens hats. This reduced the population of the species to dangerously low levels. Now protected in the United States by law, under the Migratory Bird Treaty Act, its population has rebounded.",
+      "photo_url": "https://static.inaturalist.org/photos/1124/small.jpg?1545367714"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 14,
+    "fields": {
+      "name": "Brewers blackbird",
+      "description": "Adult males have black plumage with an iridescent purple head and neck and glossy bluish-green highlights on the rest of the body. The feet and legs are black and the eye is bright yellow. The female is brownish-grey with slight hints of the males iridescence. The females eye is dark brown. ",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Brewers_Blackbird_Esquimalt_Lagoon.jpg/440px-Brewers_Blackbird_Esquimalt_Lagoon.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 15,
+    "fields": {
+      "name": "California Gull ",
+      "description": "In California, the California gull recently held the protected status California Species of Special Concern due to declining numbers at their historic California breeding colony at Mono Lake. However, in recent decades this species has begun to breed in the southern portion of San Francisco Bay, where it did not historically breed, and has undergone exponential population growth.",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Larus_californicus_Palo_Alto_May_2011_009.jpg/440px-Larus_californicus_Palo_Alto_May_2011_009.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 16,
+    "fields": {
+      "name": "Black Oystercatcher",
+      "description": "The black oystercatcher (Haematopus bachmani) is a conspicuous black bird found on the shoreline of western North America. It ranges from the Aleutian Islands of Alaska to the coast of the Baja California peninsula.",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Black_Oystercatcher_HMB_RWD4.jpg/440px-Black_Oystercatcher_HMB_RWD4.jpg"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 17,
+    "fields": {
+      "name": "Black-crowned Night-Heron",
+      "description": "They have a black crown and back with the remainder of the body white or grey, red eyes, and short yellow legs. They have pale grey wings and white under parts. Two or three long white plumes, erected in greeting and courtship displays, extend from the back of the head. The sexes are similar in appearance although the males are slightly larger. ",
+      "photo_url": "https://static.inaturalist.org/photos/1284/small.jpg?1545367874"
+    }
+  },
+  {
+    "model": "birdbird.species",
+    "pk": 18,
+    "fields": {
+      "name": "Great Horned Owl ",
+      "description": "The great horned owl (Bubo virginianus), also known as the tiger owl (originally derived from early naturalists description as the \"winged tiger\" or \"tiger of the air\") or the hoot owl, is a large owl native to the Americas. It is an extremely adaptable bird with a vast range and is the most widely distributed true owl in the Americas. Its primary diet is rabbits and hares, rats and mice, and voles, although it freely hunts any animal it can overtake, including rodents and other small mammals, larger mid-sized mammals, birds, reptiles, amphibians, and invertebrates",
+      "photo_url": "https://static.inaturalist.org/photos/876/small.jpg?1545367045"
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 1,
+    "fields": {
+      "date": "2019-06-06",
+      "address": "255 Bush St, San Francisc0",
+      "location": "37.79358932184146,-122.41722106933594",
+      "photo_url": "'hey'",
+      "bird": 1,
+      "observer": 6
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 2,
+    "fields": {
+      "date": "2019-06-06",
+      "address": "San Franc",
+      "location": "37.77793386053567,-122.42477416992186",
+      "photo_url": "'new'",
+      "bird": 1,
+      "observer": 6
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 3,
+    "fields": {
+      "date": "2019-06-07",
+      "address": "San Francisco Botanical Garden",
+      "location": "37.7677096,-122.46931089999998",
+      "photo_url": null,
+      "bird": 3,
+      "observer": 6
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 4,
+    "fields": {
+      "date": "2019-06-07",
+      "address": "telegraph hill",
+      "location": "37.8013407,-122.40566739999997",
+      "photo_url": null,
+      "bird": 2,
+      "observer": 6
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 5,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Ghiradelli Square",
+      "location": "37.8056561,-122.42249129999999",
+      "photo_url": null,
+      "bird": 6,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 6,
+    "fields": {
+      "date": "2018-02-09",
+      "address": "Union Square",
+      "location": "37.7879754,-122.40750780000002",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 7,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Elk Glen Picnic Area",
+      "location": "37.7670584,-122.48593019999998",
+      "photo_url": null,
+      "bird": 8,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 8,
+    "fields": {
+      "date": "2018-12-20",
+      "address": "Stowe Lake",
+      "location": "37.7688689,-122.47746919999997",
+      "photo_url": null,
+      "bird": 13,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 9,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Ocean Beach",
+      "location": "37.75939210000001,-122.51073400000001",
+      "photo_url": null,
+      "bird": 5,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 10,
+    "fields": {
+      "date": "2019-01-11",
+      "address": "Ocean Beach",
+      "location": "37.75939210000001,-122.51073400000001",
+      "photo_url": null,
+      "bird": 15,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 11,
+    "fields": {
+      "date": "2018-11-29",
+      "address": "Glen Canyon Park",
+      "location": "37.7415588,-122.4431851",
+      "photo_url": null,
+      "bird": 18,
+      "observer": 10
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 12,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Baker Beach",
+      "location": "37.7935724,-122.48363799999998",
+      "photo_url": null,
+      "bird": 9,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 13,
+    "fields": {
+      "date": "2017-10-31",
+      "address": "Glen Canyon Park",
+      "location": "37.7415588,-122.4431851",
+      "photo_url": null,
+      "bird": 12,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 14,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "hyde and vallejo st",
+      "location": "37.7973496,-122.41869450000002",
+      "photo_url": null,
+      "bird": 11,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 15,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Mountain Lake Park",
+      "location": "37.7872822,-122.46972249999999",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 16,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Mountain Lake Park",
+      "location": "37.7872822,-122.46972249999999",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 17,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Palace of Fine Arts",
+      "location": "37.8020161,-122.448329",
+      "photo_url": null,
+      "bird": 17,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 18,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Fort Mason Park",
+      "location": "37.8047706,-122.43040050000002",
+      "photo_url": null,
+      "bird": 16,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 19,
+    "fields": {
+      "date": "2019-03-15",
+      "address": "Julius Khan Playground",
+      "location": "37.7911316,-122.4543213",
+      "photo_url": null,
+      "bird": 8,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 20,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "The Painted Ladies",
+      "location": "37.7762593,-122.43275800000004",
+      "photo_url": null,
+      "bird": 1,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 21,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Fort Funston",
+      "location": "37.7195436,-122.50280520000001",
+      "photo_url": null,
+      "bird": 16,
+      "observer": 12
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 22,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Fort Funston",
+      "location": "37.7195436,-122.50280520000001",
+      "photo_url": null,
+      "bird": 15,
+      "observer": 12
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 23,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "1040 Greenwich St",
+      "location": "37.8016788,-122.4169728",
+      "photo_url": null,
+      "bird": 2,
+      "observer": 12
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 24,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Mission Dolores Park",
+      "location": "37.7596168,-122.42690379999999",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 25,
+    "fields": {
+      "date": "2018-11-07",
+      "address": "Conservatory of Flowers",
+      "location": "37.7726406,-122.4602415",
+      "photo_url": null,
+      "bird": 7,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 26,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Rincoln Park",
+      "location": "41.9254701,-87.6487783",
+      "photo_url": null,
+      "bird": 5,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 27,
+    "fields": {
+      "date": "2018-04-18",
+      "address": "Rinclon Park",
+      "location": "37.7915675,-122.3899424",
+      "photo_url": null,
+      "bird": 2,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 28,
+    "fields": {
+      "date": "2018-10-24",
+      "address": "Lake Merced",
+      "location": "37.7226724,-122.49483839999999",
+      "photo_url": null,
+      "bird": 13,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 29,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "San Francisco National Cemetery",
+      "location": "37.7998167,-122.4644702",
+      "photo_url": null,
+      "bird": 3,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 30,
+    "fields": {
+      "date": "2019-05-02",
+      "address": "Dutch Windmill",
+      "location": "37.7704465,-122.50939519999997",
+      "photo_url": null,
+      "bird": 1,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 31,
+    "fields": {
+      "date": "2019-01-23",
+      "address": "Glean Canyon Park",
+      "location": "37.7415588,-122.4431851",
+      "photo_url": null,
+      "bird": 18,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 32,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "George Christopher Playground",
+      "location": "37.7440043,-122.44025770000002",
+      "photo_url": null,
+      "bird": 11,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 33,
+    "fields": {
+      "date": "2019-03-20",
+      "address": "North Lake",
+      "location": "32.8712166,-96.96730289999999",
+      "photo_url": null,
+      "bird": 12,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 34,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Portrero Hill Rec Center",
+      "location": "37.7561624,-122.3972493",
+      "photo_url": null,
+      "bird": 1,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 35,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Jon McLaren Park",
+      "location": "37.7192874,-122.4183155",
+      "photo_url": null,
+      "bird": 4,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 36,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Seward Mini Park",
+      "location": "37.7576585,-122.43999259999998",
+      "photo_url": null,
+      "bird": 4,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 37,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "oracle park",
+      "location": "37.7785951,-122.38926979999997",
+      "photo_url": null,
+      "bird": 9,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 38,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Strawberry Hill",
+      "location": "39.1133069,-94.61905309999997",
+      "photo_url": null,
+      "bird": 4,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 39,
+    "fields": {
+      "date": "2019-02-14",
+      "address": "Lyon Street Steps",
+      "location": "37.78766359999999,-122.4454662",
+      "photo_url": null,
+      "bird": 2,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 40,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Yerba Buena Gardens",
+      "location": "37.7850153,-122.4023464",
+      "photo_url": null,
+      "bird": 14,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 41,
+    "fields": {
+      "date": "2017-02-05",
+      "address": "Koret Playground",
+      "location": "37.7683448,-122.45737839999998",
+      "photo_url": null,
+      "bird": 8,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 42,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Cal Academy of Science",
+      "location": "37.7698646,-122.46609469999999",
+      "photo_url": null,
+      "bird": 8,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 43,
+    "fields": {
+      "date": "2017-11-01",
+      "address": "Robin Williams Meadow",
+      "location": "37.7691071,-122.45801749999998",
+      "photo_url": null,
+      "bird": 7,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 44,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "Shakespeare Garden, San Fr",
+      "location": "37.7688958,-122.4672329",
+      "photo_url": null,
+      "bird": 1,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 45,
+    "fields": {
+      "date": "2019-03-12",
+      "address": "Bunny Meadow",
+      "location": "37.7731743,-122.46219300000001",
+      "photo_url": null,
+      "bird": 10,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 46,
+    "fields": {
+      "date": "2018-01-14",
+      "address": "Hoover Redwood Picnic Area",
+      "location": "37.7659999,-122.4795777",
+      "photo_url": null,
+      "bird": 4,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 47,
+    "fields": {
+      "date": "2018-09-10",
+      "address": "Marshall's Beach",
+      "location": "37.8016521,-122.4798778",
+      "photo_url": null,
+      "bird": 15,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 48,
+    "fields": {
+      "date": "2019-02-10",
+      "address": "Marin Headlands",
+      "location": "37.8261694,-122.49969970000001",
+      "photo_url": null,
+      "bird": 16,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 49,
+    "fields": {
+      "date": "2019-02-02",
+      "address": "San Francisco",
+      "location": "37.788624026050876,-122.4810791015625",
+      "photo_url": null,
+      "bird": 15,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 50,
+    "fields": {
+      "date": "2019-06-09",
+      "address": "San Francisco",
+      "location": "37.79215110146844,-122.48279571533203",
+      "photo_url": null,
+      "bird": 11,
+      "observer": 11
+    }
+  },
+  {
+    "model": "birdbird.sighting",
+    "pk": 51,
+    "fields": {
+      "date": "2019-04-09",
+      "address": "Rob Hill Campground",
+      "location": "37.79667269999999,-122.47583759999998",
+      "photo_url": null,
+      "bird": 10,
+      "observer": 11
+    }
+  }
+]

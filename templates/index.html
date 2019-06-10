@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-Indexxxxx
+<a href=" {% url 'map' %}" id='go-map'></a>
+
+<a href=" {% url 'sighting-form' %}" id='saw-bird'></a>
+
 
 {{ user.first_name }}
 
