@@ -2,7 +2,7 @@
 
 birdbird is a user-friendly birding app for viewing and recording bird sightings in San Francisco.
 
-[Heroku link](https://blooming-brushlands-40018.herokuapp.com/)
+[Heroku link](https://birdbird.herokuapp.com/)
 
 
 ## Technologies Used
@@ -30,6 +30,7 @@ birdbird is a user-friendly birding app for viewing and recording bird sightings
 
 - Count how many species you've observed so far
 
-- Read a description and see photos of a specific bird species
 
+## Planned Improvements
 
+- Read a description with a photo of each bird
