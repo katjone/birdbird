@@ -6,6 +6,8 @@ from django.contrib.auth.models import User
 
 
 # Create your models here.
+
+# The bird species
 class Species(models.Model):
     name = models.CharField(max_length=150)
     description = models.CharField(max_length=700)
@@ -14,6 +16,7 @@ class Species(models.Model):
     def __str__(self):
         return self.name
 
+# the who, what, where of the bird sighting
 class Sighting(models.Model):
     date = models.DateField(default=now)
     address = models.CharField(max_length=250)

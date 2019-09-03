@@ -13,6 +13,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden !important ;
 }
 
 .searchbar {
@@ -23,7 +24,9 @@ body {
 /* Navbar */
 ul.nav {
     z-index: 99 !important;
-    background: aqua;
+    /* background: aqua; */
+    position: fixed;
+    right: 0;
 }
 
  /* Index */
@@ -31,13 +34,14 @@ ul.nav {
 #go-map {
     height: 450px;
     width: 450px;
-    border-radius: 30%;
-    background: #F15025;
+    border-radius: 0 0   20% 0;
+    background: #403233;
     /* color: yellow;
     font-size: 50px; */
     position: absolute;
-    top: -125px;
-    left: -125px;
+    /* top: -125px; */
+    top: -10px;
+    /* left: -125px; */
 }
 
 #go-map:focus,
@@ -48,13 +52,20 @@ ul.nav {
 }
 
 #saw-bird {
-    height: 450px;
-    width: 500px;
+    height: 550px;
+    width: 600px;
     border-radius: 100%;
-    background: #C2E812;
+    background-color: #B9FFB7;
+    /* background-image: url('../images/parrot.png'); */
     /* color: yellow;
     font-size: 50px; */
     position: absolute;
+    bottom: 0;
     bottom: -125px;
     right: -125px;
+    overflow: hidden;
+}
+
+img {
+    height: 100%;
 }

@@ -1,9 +1,13 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
+
 
 {% block content %}
 <a href=" {% url 'map' %}" id='go-map'></a>
 
-<a href=" {% url 'sighting-form' %}" id='saw-bird'></a>
+<a href=" {% url 'sighting-form' %}" id='saw-bird'>
+    <img src="{% static 'images/parrot.png' %}" alt="">
+</a>
 
 
 {{ user.first_name }}

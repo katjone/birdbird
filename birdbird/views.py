@@ -33,16 +33,17 @@ def map(request):
     return render(request, 'birdbird/map.html')
 
 def get_sightings(request):
-    # sightings variable assigned to NameofModel, .function that gets all the rows on that Model's table
-    # .values() turns row into an object consisting of key:value pairs
     sightings = Sighting.objects.values()
-    sightings_with_bird = []
-    for sighting in sightings:
-        bird= Species.objects.get(pk=sighting['bird_id'])
-        observer = User.objects.get(pk=sighting['observer_id'])
-        sighting['bird_id'] = bird.name
-        sighting['observer_id'] = observer.username
-        sightings_with_bird.append(sighting)
-     
-    return JsonResponse({'sightings': list(sightings_with_bird)})
 
+    for s in sightings:
+        bird_id = s['bird_id']
+        bird = Species.objects.get(pk = bird_id)
+        s['bird_name'] = bird.name
+
+        observer_id = s['observer_id']
+        observer = User.objects.get(pk = observer_id)
+        s['observer_name'] = observer.username
+        print(s)
+
+    return JsonResponse({'sightings': list(sightings)})
+    

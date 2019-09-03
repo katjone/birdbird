@@ -21,20 +21,9 @@ $(document).ready(function() {
     method: "GET",
     success: function(data) {
       console.log(data);
-      // debugger;
-      // data.sightings[0].properties.title
-      for (let i = 0; i < data.sightings.length; i++) {
-        // let time = (
-        //   (Date.now() - data.sightings[i].properties.time) /
-        //   60 /
-        //   60 /
-        //   1000
-        // ).toFixed(2);
-        // $("#info").append(
-        //   `<p>${data.sightings[i].properties.title} / ${time} hours ago</p>`
-        // );
 
-        // Get the sighting and seperate coordinates into a list
+      for (let i = 0; i < data.sightings.length; i++) {
+        // Get the sighting and separate coordinates into a list
         const coords = data.sightings[i].location.split(',')
         console.log(coords)
 
@@ -52,15 +41,11 @@ $(document).ready(function() {
           position: myLatLng,
           map: map,
           title: data.sightings[i].bird,
-        //   icon: {
-        //     url: "images/earthquake.png",
-        //     scaledSize: { height: 40, width: 40 }
-        //   }
         });
         // An InfoWindow displays content (usually text or images) in a popup window above the map, at a given location.
         let infowindow = new google.maps.InfoWindow({
           // Content has to be a string, not an array!!
-          content: `${data.sightings[i].bird_id}, ${data.sightings[i].address}`
+          content: `${data.sightings[i].bird_name}, ${data.sightings[i].address}, ${data.sightings[i].observer_name}`
         });
         marker.addListener("click", function() {
           infowindow.open(map, marker);
@@ -69,3 +54,42 @@ $(document).ready(function() {
     }
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// This was under the for statement at line 26
+        // let time = (
+        //   (Date.now() - data.sightings[i].properties.time) /
+        //   60 /
+        //   60 /
+        //   1000
+        // ).toFixed(2);
+        // $("#info").append(
+        //   `<p>${data.sightings[i].properties.title} / ${time} hours ago</p>`
+        // );
+
+
+// under line 44
+ //   icon: {
+        //     url: "images/earthquake.png",
+        //     scaledSize: { height: 40, width: 40 }
+        //   }
+
+
+
+// under line 23 
+    // debugger;
+      // data.sightings[0].properties.title
